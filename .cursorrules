@@ -1,0 +1,55 @@
+# Cursor AI Rules for SBA Loan Prediction System
+# Advanced Machine Learning Project Configuration
+
+## Code Quality Standards
+- Use type hints for all function parameters and return values
+- Implement comprehensive docstrings with examples
+- Follow PEP 8 style guidelines with 88-character line limit
+- Use descriptive variable names that reflect business context
+- Implement error handling with custom exceptions
+
+## Machine Learning Best Practices
+- Separate data preprocessing, feature engineering, and modeling
+- Implement cross-validation for robust model evaluation
+- Use configuration files for hyperparameters
+- Log all experiments with MLflow or similar
+- Implement reproducible random seeds
+- Create modular, reusable components
+
+## Business Context Awareness
+- Always consider the 5:1 cost ratio in loan classification
+- Focus on profit maximization over accuracy
+- Implement Basel III compliance considerations
+- Include explainable AI features for regulatory requirements
+- Consider temporal aspects of loan data
+
+## File Organization
+- `/data/` - Raw, interim, processed datasets
+- `/src/models/` - Model implementations
+- `/src/features/` - Feature engineering modules
+- `/src/evaluation/` - Model evaluation and metrics
+- `/notebooks/` - Experimentation and analysis
+- `/streamlit/` - Interactive dashboard components
+- `/tests/` - Unit and integration tests
+
+## Technology Stack Preferences
+- pandas/polars for data manipulation
+- scikit-learn + XGBoost/LightGBM for modeling
+- streamlit for interactive interfaces
+- plotly for visualizations
+- SHAP for explainable AI
+- optuna for hyperparameter optimization
+
+## Documentation Requirements
+- Include business impact in all function docstrings
+- Explain model assumptions and limitations
+- Document feature engineering rationale
+- Provide examples for complex functions
+- Include performance benchmarks
+
+## Security and Compliance
+- Never log sensitive customer data
+- Implement data anonymization where required
+- Follow GDPR/CCPA guidelines for data handling
+- Ensure model fairness and bias detection
+- Implement audit trails for model decisions 
