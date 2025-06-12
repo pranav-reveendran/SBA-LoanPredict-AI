@@ -1,4 +1,4 @@
-# 🏦 SBA-LoanPredict-AI: Advanced Loan Default Prediction System
+# 🏦 Advanced Loan Default Prediction System
 
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/)
 [![Flask](https://img.shields.io/badge/Flask-2.3.0-green.svg)](https://flask.palletsprojects.com/)
